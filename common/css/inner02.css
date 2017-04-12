@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/*inner.scss*/
+/* line 5, ../sass/inner02.scss */
+html body {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  min-width: 1280px;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 19, ../sass/inner02.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 26, ../sass/inner02.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 31, ../sass/inner02.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 37, ../sass/inner02.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 43, ../sass/inner02.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 47, ../sass/inner02.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 51, ../sass/inner02.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 54, ../sass/inner02.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 60, ../sass/inner02.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 74, ../sass/inner02.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  color: #000;
+  text-decoration: none;
+}
+/* line 85, ../sass/inner02.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 94, ../sass/inner02.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 98, ../sass/inner02.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 115, ../sass/inner02.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 126, ../sass/inner02.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 133, ../sass/inner02.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 140, ../sass/inner02.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 149, ../sass/inner02.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 155, ../sass/inner02.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 163, ../sass/inner02.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 173, ../sass/inner02.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 176, ../sass/inner02.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 179, ../sass/inner02.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 187, ../sass/inner02.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 194, ../sass/inner02.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 201, ../sass/inner02.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 206, ../sass/inner02.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 209, ../sass/inner02.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 215, ../sass/inner02.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 224, ../sass/inner02.scss */
+html body #wrap {
+  width: 980px;
+  margin-left: 160px;
+}
+/* line 229, ../sass/inner02.scss */
+html body #wrap section {
+  margin-left: 100px;
+  float: left;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 180px;
+}
+/* line 238, ../sass/inner02.scss */
+html body #wrap section .title {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -10px;
+}
+/* line 243, ../sass/inner02.scss */
+html body #wrap section .title .yoko {
+  float: right;
+  margin-right: 20px;
+  margin-top: -37px;
+}
+/* line 249, ../sass/inner02.scss */
+html body #wrap section .sub-title {
+  font-weight: bold;
+  margin-top: 30px;
+}
+/* line 256, ../sass/inner02.scss */
+html body #wrap section .right-message01 {
+  font-size: 13px;
+  width: 350px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+/* line 264, ../sass/inner02.scss */
+html body #wrap section .right-message01 a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 268, ../sass/inner02.scss */
+html body #wrap section .right-message01 a:hover {
+  color: #000;
+}
+/* line 274, ../sass/inner02.scss */
+html body #wrap section .left-message01 {
+  font-size: 13px;
+  float: right;
+  width: 350px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+/* line 284, ../sass/inner02.scss */
+html body #wrap section .left-message01 .press {
+  font-family: YuMincho, '游明朝', serif;
+}
+/* line 292, ../sass/inner02.scss */
+html body #wrap section .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+}
+/* line 297, ../sass/inner02.scss */
+html body #wrap section .sub-image li {
+  float: left;
+}
+/* line 301, ../sass/inner02.scss */
+html body #wrap section .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 304, ../sass/inner02.scss */
+html body #wrap section .sub-image li:nth-of-type(2) {
+  margin-right: 1px;
+}
+/* line 308, ../sass/inner02.scss */
+html body #wrap section .sub-image li:nth-of-type(3) {
+  margin-right: 0px;
+}
+/* line 314, ../sass/inner02.scss */
+html body #wrap section .top02-image img {
+  margin-top: -4px;
+}
+/* line 319, ../sass/inner02.scss */
+html body #wrap section .top-image03 {
+  padding-bottom: 40px;
+}
+/* line 324, ../sass/inner02.scss */
+html body #wrap section .right-message {
+  width: 220px;
+  float: left;
+  margin-left: 40px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+/* line 331, ../sass/inner02.scss */
+html body #wrap section .right-message .right-message-author {
+  color: #a3a5a9;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  font-size: 13px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+/* line 338, ../sass/inner02.scss */
+html body #wrap section .right-message .description-subtitle {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* line 352, ../sass/inner02.scss */
+.en {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+
+/* line 357, ../sass/inner02.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+}

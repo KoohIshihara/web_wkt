@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Akira Wakita Laboratory　-慶應義塾大学脇田玲研究室-</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=1280, maximum-scale=1.0, user-scalable=yes">
+  <meta name="keywords" content="Fabcell, ファブセル, UNDA, origamic I/O, access to materials, transience, blob motility, anabiosis, SMAAD surface, intuino, kerido, algorithmic couture, wearable synthesis, wakita lab, keio, SFC, XD, 脇田研, 脇田研究室, 脇田玲, 慶応, 慶應, デザイン, メディアアート, コンピュテーショナルデザイン, スマートマテリアル, 大学, 研究室, CAD, CAAD, デザインツール, デザインマテリアル
+" />
+
+<!--OGP-->
+ <meta name="description" content="慶應義塾大学脇田玲研究室のウェブサイトです。">
+<meta property="og:title" content="Akira Wakita Laboratory">
+<meta property="og:url" content="http://wakita.sfc.keio.ac.jp/">
+<meta property="og:image" content="http://wakita.sfc.keio.ac.jp/common/img/og/og.jpg">
+<meta property="og:description" content="慶應義塾大学脇田玲研究室のウェブサイトです。">
+<meta property="og:site_name" content="Akira Wakita Laboratory">
+
+
+  <!--CSS-->
+  <link rel="stylesheet" href="common/css/contact.css" />
+
+  <!--JS_libs-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+  <!--JS-->
+  <script src="common/js/class/mainTest.js"></script>
+  <script src="common/js/class/fade.js"></script>
+  <script src="common/js/class/gMap.js"></script>
+  <script src="common/js/libs/jquery-1.10.1.min.js"></script>
+  <script src="common/js/libs/langswitcher.js"></script>
+  <script src="common/js/libs/jquery.cookie.js"></script>
+
+
+</head>
+
+  <body onload="initialize();">
+
+  	<!--fluidDevision-->
+    <header></header>
+
+    <!--sideNavigation-->
+   	 <nav>
+    	<div id="title">
+    	<a href="index.html">
+    		Wakita<br>
+    		Laboratory<br>
+    		Keio SFC
+    	</a>
+    	</div>
+
+			<ul id="fade-in2" class="dropmenu">
+				<li class="index"><a href="index.html">WORKS</a>
+
+				<!--
+					<ul>
+		      			<li><a href="#first-division">devision1</a></li>
+						<li><a href="#second-division">devision2</a></li>
+						<li><a href="#third-division">devision3</a></li>
+		    		</ul>
+		        -->
+				</li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="news/news2014.html">NEWS</a></li>
+				<li><a href="publication/publication2014.html">PUBLICATION</a></li>
+				<li><a href="http://wktlab.tumblr.com">BLOG</a></li>
+				<li class="contact"><a href="contact.html">CONTACT</a></li>
+			</ul>
+
+			<div class="lang-switch">
+				<a id="en">EN</a>
+				<a id="ja">JP</a>
+			</div>
+
+			<!--langswitcherのバグ回避のため-->
+			<span class="slash"> / </span>
+
+
+			<div class="switch-icon">
+				<a class="tate" href="index.html">
+					<img src="common/img/top/2x/icon01@2x.png">
+				</a>
+				<a class="yoko" href="sub-index.html">
+					<img src="common/img/top/2x/icon00@2x.png">
+				</a>
+			</div>
+			
+			<div class="xd">
+
+				<a href="http://www.sfc.keio.ac.jp">
+					<div class="strong">Keio University SFC</div>
+					<p>
+						Faculty of Environment and<br>
+						Information Studies
+					</p>
+				</a>
+
+				<a href="http://xd.sfc.keio.ac.jp">
+					<p>
+						Graduate School of Media and<br>
+						Governance (X-DESIGN)			
+					</p>
+				</a>
+			</div><!--/.xd-->
+
+			<!--<footer id="footer">
+				<p class="copyright">&copy; Akira Wakita Laboratory</p>
+			</footer>-->
+    </nav>
+    <!--cntetnsStage-->
+
+    <div id="wrap">
+
+    	<!-- firstDevsion -->
+    	<article>
+	    	<section>
+
+	    		
+			  	<div class="contact">
+	    			<p class="strong">CONTACT</p>
+
+	    			<div class="contact-division">
+	    				<div id="formWrap" style="padding-top: 10px; font-size: 14px;">
+							  <p class="en">
+							  	Mail : wkt-contact@sfc.keio.ac.jp
+							  </p>
+							  <p class="ja">
+							  	Mail : wkt-contact@sfc.keio.ac.jp
+							  </p>
+
+							  
+							</div>
+	    			</div><!--/contact-division-->
+	    		</div>
+
+
+	    		<div class="access">
+
+	    			<p class="strong">ACCESS</p>
+
+	    			
+	    			<div id="map_custmomize" style="width:780px;height:350px; margin-top:-5px;"></div>
+					
+			  		<div class="japanese-access">
+			  			<p class="ja">
+			  				〒252-0882 神奈川県 藤沢市 遠藤5322<br>
+							慶應義塾大学湘南藤沢キャンパス<br>
+							<a href="http://www.sfc.keio.ac.jp/maps.html">>http://www.sfc.keio.ac.jp/maps.html</a>
+						</p>
+			  		</div>
+			  		<div class="english-access">
+			  			<p class="en">
+			  				5322 Endo, Fujisawa, Kanagawa, 252-0882, JAPAN<br>
+							Keio University SFC<br>
+							<a href="http://www.sfc.keio.ac.jp/en/maps.html">>http://www.sfc.keio.ac.jp/maps.html</a>
+						</p>
+			  		</div>
+			  	</div><!--/access-->
+
+
+	    	</section>
+	  	</article>
+  	</div><!--\#wrap -->
+	</body>
+</html>

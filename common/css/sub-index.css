@@ -1,0 +1,2276 @@
+@charset "UTF-8";
+/*index.scss*/
+/* line 5, ../sass/sub-index.scss */
+html body {
+  font-family: "Iowan Old Style", 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman',YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  min-width: 1280px;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 21, ../sass/sub-index.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 28, ../sass/sub-index.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 33, ../sass/sub-index.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 39, ../sass/sub-index.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 45, ../sass/sub-index.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 49, ../sass/sub-index.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 53, ../sass/sub-index.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 56, ../sass/sub-index.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 62, ../sass/sub-index.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 76, ../sass/sub-index.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  color: #000;
+  text-decoration: none;
+}
+/* line 87, ../sass/sub-index.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 96, ../sass/sub-index.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 100, ../sass/sub-index.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 117, ../sass/sub-index.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 128, ../sass/sub-index.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 135, ../sass/sub-index.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 142, ../sass/sub-index.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 151, ../sass/sub-index.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 157, ../sass/sub-index.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 165, ../sass/sub-index.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 175, ../sass/sub-index.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 178, ../sass/sub-index.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 181, ../sass/sub-index.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 188, ../sass/sub-index.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 195, ../sass/sub-index.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 202, ../sass/sub-index.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 207, ../sass/sub-index.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 210, ../sass/sub-index.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 216, ../sass/sub-index.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 225, ../sass/sub-index.scss */
+html body #wrap {
+  width: 1080px;
+  margin-left: 200px;
+}
+/* line 229, ../sass/sub-index.scss */
+html body #wrap img.lazy {
+  width: 1080px;
+  height: 718px;
+}
+/* line 235, ../sass/sub-index.scss */
+html body #wrap a {
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 240, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division {
+  height: 719px;
+}
+/* line 242, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .image-container {
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 249, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 254, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .image-container .sub-image li {
+  float: left;
+}
+/* line 258, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 261, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 271, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 282, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 286, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 295, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 302, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 312, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 319, ../sass/sub-index.scss */
+html body #wrap section#zero-three-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 327, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division {
+  height: 719px;
+}
+/* line 329, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 336, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 341, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .image-container .sub-image li {
+  float: left;
+}
+/* line 345, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 348, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 358, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 369, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 373, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 382, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 389, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 399, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 406, ../sass/sub-index.scss */
+html body #wrap section#zero-one-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 414, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division {
+  height: 719px;
+}
+/* line 416, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 423, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 428, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .image-container .sub-image li {
+  float: left;
+}
+/* line 432, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 435, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 445, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 456, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 460, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 469, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 476, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 486, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 493, ../sass/sub-index.scss */
+html body #wrap section#zero-two-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 501, ../sass/sub-index.scss */
+html body #wrap section#zero-division {
+  height: 719px;
+}
+/* line 503, ../sass/sub-index.scss */
+html body #wrap section#zero-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 510, ../sass/sub-index.scss */
+html body #wrap section#zero-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 515, ../sass/sub-index.scss */
+html body #wrap section#zero-division .image-container .sub-image li {
+  float: left;
+}
+/* line 519, ../sass/sub-index.scss */
+html body #wrap section#zero-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 522, ../sass/sub-index.scss */
+html body #wrap section#zero-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 532, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+/* line 543, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 547, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 556, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 563, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 573, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 580, ../sass/sub-index.scss */
+html body #wrap section#zero-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 588, ../sass/sub-index.scss */
+html body #wrap section#first-division {
+  height: 719px;
+}
+/* line 590, ../sass/sub-index.scss */
+html body #wrap section#first-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 597, ../sass/sub-index.scss */
+html body #wrap section#first-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 602, ../sass/sub-index.scss */
+html body #wrap section#first-division .image-container .sub-image li {
+  float: left;
+}
+/* line 606, ../sass/sub-index.scss */
+html body #wrap section#first-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 609, ../sass/sub-index.scss */
+html body #wrap section#first-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 619, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 50px;
+}
+/* line 630, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 634, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 643, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 650, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 660, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 667, ../sass/sub-index.scss */
+html body #wrap section#first-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 675, ../sass/sub-index.scss */
+html body #wrap section#second-division {
+  height: 719px;
+}
+/* line 677, ../sass/sub-index.scss */
+html body #wrap section#second-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 684, ../sass/sub-index.scss */
+html body #wrap section#second-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 689, ../sass/sub-index.scss */
+html body #wrap section#second-division .image-container .sub-image li {
+  float: left;
+}
+/* line 693, ../sass/sub-index.scss */
+html body #wrap section#second-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 696, ../sass/sub-index.scss */
+html body #wrap section#second-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 706, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 40px;
+}
+/* line 717, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 721, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 730, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 737, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 747, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 754, ../sass/sub-index.scss */
+html body #wrap section#second-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 764, ../sass/sub-index.scss */
+html body #wrap section#third-division {
+  height: 719px;
+}
+/* line 766, ../sass/sub-index.scss */
+html body #wrap section#third-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 773, ../sass/sub-index.scss */
+html body #wrap section#third-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 778, ../sass/sub-index.scss */
+html body #wrap section#third-division .image-container .sub-image li {
+  float: left;
+}
+/* line 782, ../sass/sub-index.scss */
+html body #wrap section#third-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 785, ../sass/sub-index.scss */
+html body #wrap section#third-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 796, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 807, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 811, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 820, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 827, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 837, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 844, ../sass/sub-index.scss */
+html body #wrap section#third-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 856, ../sass/sub-index.scss */
+html body #wrap section#forth-division {
+  height: 719px;
+}
+/* line 858, ../sass/sub-index.scss */
+html body #wrap section#forth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 865, ../sass/sub-index.scss */
+html body #wrap section#forth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 870, ../sass/sub-index.scss */
+html body #wrap section#forth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 874, ../sass/sub-index.scss */
+html body #wrap section#forth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 877, ../sass/sub-index.scss */
+html body #wrap section#forth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 887, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 898, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 902, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 911, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 918, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 928, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 935, ../sass/sub-index.scss */
+html body #wrap section#forth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 944, ../sass/sub-index.scss */
+html body #wrap section#fifth-division {
+  height: 719px;
+}
+/* line 946, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 953, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 958, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 962, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 965, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 975, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 986, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 990, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 999, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1006, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1016, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1023, ../sass/sub-index.scss */
+html body #wrap section#fifth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1034, ../sass/sub-index.scss */
+html body #wrap section#sixth-division {
+  height: 719px;
+}
+/* line 1036, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .image-container {
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1042, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1047, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1051, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1054, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1064, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 1075, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1079, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1088, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1095, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1105, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1112, ../sass/sub-index.scss */
+html body #wrap section#sixth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1120, ../sass/sub-index.scss */
+html body #wrap section#seventh-division {
+  height: 719px;
+}
+/* line 1122, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1129, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1134, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1138, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1141, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1151, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 1162, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1166, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1175, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1182, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1192, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1199, ../sass/sub-index.scss */
+html body #wrap section#seventh-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1209, ../sass/sub-index.scss */
+html body #wrap section#eighth-division {
+  height: 719px;
+}
+/* line 1211, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .image-container {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1218, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1223, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1227, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1230, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1240, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 45px;
+}
+/* line 1251, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1255, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1264, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1271, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1281, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1288, ../sass/sub-index.scss */
+html body #wrap section#eighth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1296, ../sass/sub-index.scss */
+html body #wrap section#nineth-division {
+  height: 719px;
+}
+/* line 1298, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container {
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1305, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1310, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1314, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1317, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1325, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image {
+  margin-left: -40px;
+}
+/* line 1328, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image img {
+  margin-top: -4px;
+}
+/* line 1331, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul {
+  list-style-type: none;
+}
+/* line 1333, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li {
+  float: left;
+}
+/* line 1336, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li:nth-of-type(1) {
+  padding-right: 1px;
+}
+/* line 1340, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li:nth-of-type(2) {
+  padding-right: 1px;
+}
+/* line 1344, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li:nth-of-type(3) {
+  padding-right: 1px;
+}
+/* line 1347, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li:nth-of-type(6) {
+  padding-right: 1px;
+}
+/* line 1350, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .image-container .top02-image ul li:nth-of-type(7) {
+  padding-right: 1px;
+}
+/* line 1356, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 40px;
+}
+/* line 1367, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1371, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1380, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1387, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1397, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1404, ../sass/sub-index.scss */
+html body #wrap section#nineth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1415, ../sass/sub-index.scss */
+html body #wrap section#tenth-division {
+  height: 719px;
+}
+/* line 1417, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1424, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1429, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1433, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1436, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1446, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 1457, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1461, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1470, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1476, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1486, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1493, ../sass/sub-index.scss */
+html body #wrap section#tenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1502, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division {
+  height: 719px;
+}
+/* line 1504, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1511, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1516, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1520, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1523, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1533, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 60px;
+}
+/* line 1544, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1548, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1557, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1564, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1574, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1581, ../sass/sub-index.scss */
+html body #wrap section#eleventh-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1588, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division {
+  height: 719px;
+}
+/* line 1590, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1597, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1602, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1606, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1609, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1619, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+/* line 1630, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1634, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1643, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1650, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1660, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1667, ../sass/sub-index.scss */
+html body #wrap section#twelveth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1675, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division {
+  height: 719px;
+}
+/* line 1677, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1684, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1689, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1693, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1696, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1706, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 1717, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1721, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1730, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1737, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1747, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1754, ../sass/sub-index.scss */
+html body #wrap section#thirteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1764, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division {
+  height: 719px;
+}
+/* line 1766, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .image-container {
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1773, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1778, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1782, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1785, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1795, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 1806, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1810, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1819, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1826, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1836, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1843, ../sass/sub-index.scss */
+html body #wrap section#forteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1854, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division {
+  height: 719px;
+}
+/* line 1856, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1863, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1868, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1872, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1875, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 1883, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image {
+  margin-left: -40px;
+}
+/* line 1886, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image img {
+  margin-top: -4px;
+}
+/* line 1889, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul {
+  list-style-type: none;
+}
+/* line 1891, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li {
+  float: left;
+}
+/* line 1894, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li:nth-of-type(1) {
+  padding-right: 1px;
+}
+/* line 1898, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li:nth-of-type(2) {
+  padding-right: 1px;
+}
+/* line 1902, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li:nth-of-type(3) {
+  padding-right: 1px;
+}
+/* line 1905, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li:nth-of-type(6) {
+  padding-right: 1px;
+}
+/* line 1908, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .image-container .top02-image ul li:nth-of-type(7) {
+  padding-right: 1px;
+}
+/* line 1914, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 1925, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 1929, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 1938, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 1945, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 1955, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1962, ../sass/sub-index.scss */
+html body #wrap section#fifteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1975, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division {
+  height: 719px;
+}
+/* line 1977, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 1984, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 1989, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 1993, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 1996, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 2006, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 2017, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 2021, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 2030, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 2037, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 2047, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2054, ../sass/sub-index.scss */
+html body #wrap section#sixteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2066, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division {
+  height: 719px;
+}
+/* line 2068, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 2075, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 2080, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 2084, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 2087, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 2095, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image {
+  margin-left: -40px;
+}
+/* line 2098, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image img {
+  margin-top: -4px;
+}
+/* line 2101, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul {
+  list-style-type: none;
+}
+/* line 2103, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li {
+  float: left;
+}
+/* line 2106, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li:nth-of-type(1) {
+  padding-right: 1px;
+}
+/* line 2110, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li:nth-of-type(2) {
+  padding-right: 1px;
+}
+/* line 2114, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li:nth-of-type(3) {
+  padding-right: 1px;
+}
+/* line 2117, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li:nth-of-type(6) {
+  padding-right: 1px;
+}
+/* line 2120, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .image-container .top02-image ul li:nth-of-type(7) {
+  padding-right: 1px;
+}
+/* line 2126, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 2137, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 2141, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 2150, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 2157, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 2167, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2174, ../sass/sub-index.scss */
+html body #wrap section#seventeenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2187, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division {
+  height: 719px;
+}
+/* line 2189, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .image-container {
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 2196, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 2201, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 2205, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 2208, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 2218, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 70px;
+}
+/* line 2229, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 2233, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 2242, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 2249, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 2259, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2266, ../sass/sub-index.scss */
+html body #wrap section#eighteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2279, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division {
+  height: 719px;
+}
+/* line 2281, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 2288, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 2293, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 2297, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 2300, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 2308, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image {
+  margin-left: -40px;
+}
+/* line 2311, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image img {
+  margin-top: -4px;
+}
+/* line 2314, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul {
+  list-style-type: none;
+}
+/* line 2316, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li {
+  float: left;
+}
+/* line 2319, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li:nth-of-type(1) {
+  padding-right: 1px;
+}
+/* line 2323, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li:nth-of-type(2) {
+  padding-right: 1px;
+}
+/* line 2327, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li:nth-of-type(3) {
+  padding-right: 1px;
+}
+/* line 2330, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li:nth-of-type(6) {
+  padding-right: 1px;
+}
+/* line 2333, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .image-container .top02-image ul li:nth-of-type(7) {
+  padding-right: 1px;
+}
+/* line 2339, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 60px;
+}
+/* line 2350, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 2354, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 2363, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 2370, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 2380, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2387, ../sass/sub-index.scss */
+html body #wrap section#nineteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2399, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division {
+  height: 719px;
+}
+/* line 2401, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .image-container {
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  float: left;
+  width: 780px;
+  margin-bottom: -4px;
+}
+/* line 2408, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .image-container .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+  /*li:nth-of-type(3){
+  	margin-right: -1px;
+  }*/
+}
+/* line 2413, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .image-container .sub-image li {
+  float: left;
+}
+/* line 2417, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .image-container .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 2420, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .image-container .sub-image li:nth-of-type(2) {
+  margin-right: -1px;
+}
+/* line 2430, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  width: 1000px;
+  float: left;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+/* line 2441, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .right-message-title {
+  font-size: 70px;
+}
+/* line 2445, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .right-message-title .year {
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+/* line 2454, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .right-keyword {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 2461, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .abust {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  width: 800px;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+/* line 2471, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .link a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2478, ../sass/sub-index.scss */
+html body #wrap section#twentieth-division .right-message .link a:hover {
+  color: #FFF;
+}
+
+/* line 2493, ../sass/sub-index.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+  line-height: 1.4;
+}
+
+/* line 2498, ../sass/sub-index.scss */
+img.lazy {
+  width: 1080px;
+  height: 719px;
+}

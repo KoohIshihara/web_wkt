@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/*inner.scss*/
+/* line 5, ../sass/inner.scss */
+html body {
+  font-family: "Iowan Old Style", YuGothic, '游ゴシック',　sans-serif;
+  margin: 0;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 16, ../sass/inner.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 23, ../sass/inner.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 30, ../sass/inner.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 36, ../sass/inner.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 40, ../sass/inner.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 44, ../sass/inner.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 47, ../sass/inner.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 53, ../sass/inner.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 67, ../sass/inner.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  color: #000;
+  text-decoration: none;
+}
+/* line 78, ../sass/inner.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 87, ../sass/inner.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 91, ../sass/inner.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 108, ../sass/inner.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 119, ../sass/inner.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 126, ../sass/inner.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 133, ../sass/inner.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 142, ../sass/inner.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 148, ../sass/inner.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 156, ../sass/inner.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 166, ../sass/inner.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 169, ../sass/inner.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 172, ../sass/inner.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+/* line 180, ../sass/inner.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style";
+}
+/* line 185, ../sass/inner.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 188, ../sass/inner.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 194, ../sass/inner.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 203, ../sass/inner.scss */
+html body #wrap {
+  width: 1080px;
+  margin-left: 160px;
+}
+/* line 207, ../sass/inner.scss */
+html body #wrap section {
+  margin-left: 100px;
+  float: left;
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 180px;
+}
+/* line 216, ../sass/inner.scss */
+html body #wrap section .title {
+  font-family: "Iowan Old Style";
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -10px;
+}
+/* line 222, ../sass/inner.scss */
+html body #wrap section .sub-title {
+  font-weight: bold;
+  margin-top: 30px;
+}
+/* line 229, ../sass/inner.scss */
+html body #wrap section .right-message01 {
+  font-size: 13px;
+  width: 350px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+/* line 238, ../sass/inner.scss */
+html body #wrap section .left-message01 {
+  font-size: 13px;
+  float: right;
+  width: 350px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+/* line 248, ../sass/inner.scss */
+html body #wrap section .sub-image {
+  margin-top: -4px;
+  margin-left: -40px;
+  list-style-type: none;
+}
+/* line 253, ../sass/inner.scss */
+html body #wrap section .sub-image li {
+  float: left;
+}
+/* line 257, ../sass/inner.scss */
+html body #wrap section .sub-image li:nth-of-type(1) {
+  margin-right: 1px;
+}
+/* line 260, ../sass/inner.scss */
+html body #wrap section .sub-image li:nth-of-type(2) {
+  margin-right: 1px;
+}
+/* line 264, ../sass/inner.scss */
+html body #wrap section .sub-image li:nth-of-type(3) {
+  margin-right: 0px;
+}
+/* line 270, ../sass/inner.scss */
+html body #wrap section .top02-image img {
+  margin-top: -4px;
+}
+/* line 275, ../sass/inner.scss */
+html body #wrap section .top03-image {
+  margin-top: 30px;
+}
+/* line 279, ../sass/inner.scss */
+html body #wrap section .right-message {
+  width: 220px;
+  float: left;
+  margin-left: 40px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+/* line 286, ../sass/inner.scss */
+html body #wrap section .right-message .right-message-author {
+  color: #a3a5a9;
+  font-family: '游ゴシック';
+  font-size: 13px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+/* line 293, ../sass/inner.scss */
+html body #wrap section .right-message .description-subtitle {
+  margin-top: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,1758 @@
+@charset "UTF-8";
+/*index.scss*/
+/* line 5, ../sass/index.scss */
+html body {
+  font-family: "Iowan Old Style", 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman',YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  /* 横幅が639px以下の場合に適用 */
+}
+@media screen and (min-width: 980px) and (max-width: 1280px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 95%;
+  }
+}
+@media screen and (min-width: 890px) and (max-width: 979px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 95%;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 60%;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 669px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 639px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 35%;
+  }
+}
+@media screen and (max-width: 330px) {
+  /* line 5, ../sass/index.scss */
+  html body {
+    font-size: 30%;
+  }
+}
+/* line 55, ../sass/index.scss */
+html body .name-bar {
+  font-weight: bold;
+  width: 100%;
+  top: 0;
+  left: 0;
+  float: left;
+  position: fixed;
+  z-index: 2000;
+  height: 70px;
+  background-color: #FFF;
+  opacity: 0.5;
+}
+/* line 67, ../sass/index.scss */
+html body .name-bar p {
+  text-align: center;
+  color: #000;
+  font-size: 1.5em;
+  opacity: 1.0;
+}
+/* line 77, ../sass/index.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  overflow: hidden;
+}
+/* line 85, ../sass/index.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 90, ../sass/index.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 96, ../sass/index.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 102, ../sass/index.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 106, ../sass/index.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 110, ../sass/index.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 113, ../sass/index.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 119, ../sass/index.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 134, ../sass/index.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  color: #000;
+  text-decoration: none;
+}
+/* line 145, ../sass/index.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 154, ../sass/index.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 158, ../sass/index.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 175, ../sass/index.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 186, ../sass/index.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 193, ../sass/index.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 200, ../sass/index.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 209, ../sass/index.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 215, ../sass/index.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 223, ../sass/index.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 233, ../sass/index.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 236, ../sass/index.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 239, ../sass/index.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 246, ../sass/index.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 253, ../sass/index.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 260, ../sass/index.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 265, ../sass/index.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 268, ../sass/index.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 274, ../sass/index.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 288, ../sass/index.scss */
+html body #wrap {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 292, ../sass/index.scss */
+html body #wrap .top-title {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  text-align: center;
+  color: #000;
+}
+/* line 302, ../sass/index.scss */
+html body #wrap .top-title p.top-name {
+  font-size: 4em;
+}
+/* line 307, ../sass/index.scss */
+html body #wrap .top-title p.sub-name {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  margin-top: -5%;
+  font-size: 2em;
+}
+/* line 315, ../sass/index.scss */
+html body #wrap img {
+  width: 100%;
+  height: auto;
+}
+/* line 321, ../sass/index.scss */
+html body #wrap a {
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 331, ../sass/index.scss */
+html body #wrap section#zero-for-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  margin-bottom: -6px;
+}
+/* line 339, ../sass/index.scss */
+html body #wrap section#zero-for-division .image-container img {
+  width: 100%;
+  height: auto;
+}
+/* line 346, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  padding-top: 5%;
+  margin-top: 60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 346, ../sass/index.scss */
+  html body #wrap section#zero-for-division .right-message {
+    padding-top: 7%;
+  }
+}
+/* line 368, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .right-message-title {
+  font-size: 5em;
+}
+/* line 373, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 382, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 389, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 399, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 406, ../sass/index.scss */
+html body #wrap section#zero-for-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 418, ../sass/index.scss */
+html body #wrap section#zero-three-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  margin-bottom: -6px;
+}
+/* line 426, ../sass/index.scss */
+html body #wrap section#zero-three-division .image-container img {
+  width: 100%;
+  height: auto;
+}
+/* line 433, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message {
+  position: absolute;
+  width: 90%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 433, ../sass/index.scss */
+  html body #wrap section#zero-three-division .right-message {
+    padding-top: 7%;
+  }
+}
+/* line 451, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .right-message-title {
+  font-size: 5em;
+}
+/* line 456, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 465, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 472, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 482, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 489, ../sass/index.scss */
+html body #wrap section#zero-three-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 502, ../sass/index.scss */
+html body #wrap section#zero-one-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  margin-bottom: -6px;
+}
+/* line 511, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message {
+  position: absolute;
+  width: 90%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 511, ../sass/index.scss */
+  html body #wrap section#zero-one-division .right-message {
+    padding-top: 3%;
+  }
+}
+/* line 529, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .right-message-title {
+  font-size: 5em;
+}
+/* line 534, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 543, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 550, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 560, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 567, ../sass/index.scss */
+html body #wrap section#zero-one-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 578, ../sass/index.scss */
+html body #wrap section#zero-two-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 589, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message {
+  position: absolute;
+  width: 90%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 589, ../sass/index.scss */
+  html body #wrap section#zero-two-division .right-message {
+    padding-top: 4%;
+  }
+}
+/* line 607, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .right-message-title {
+  font-size: 5em;
+}
+/* line 612, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 621, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 628, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 638, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 645, ../sass/index.scss */
+html body #wrap section#zero-two-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 657, ../sass/index.scss */
+html body #wrap section#zero-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  margin-bottom: -6px;
+}
+/* line 668, ../sass/index.scss */
+html body #wrap section#zero-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -62%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 668, ../sass/index.scss */
+  html body #wrap section#zero-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 684, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 691, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 700, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 707, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 717, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 724, ../sass/index.scss */
+html body #wrap section#zero-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 735, ../sass/index.scss */
+html body #wrap section#first-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 746, ../sass/index.scss */
+html body #wrap section#first-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 746, ../sass/index.scss */
+  html body #wrap section#first-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 762, ../sass/index.scss */
+html body #wrap section#first-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 769, ../sass/index.scss */
+html body #wrap section#first-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 778, ../sass/index.scss */
+html body #wrap section#first-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 785, ../sass/index.scss */
+html body #wrap section#first-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 795, ../sass/index.scss */
+html body #wrap section#first-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 802, ../sass/index.scss */
+html body #wrap section#first-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 811, ../sass/index.scss */
+html body #wrap section#second-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 822, ../sass/index.scss */
+html body #wrap section#second-division .right-message {
+  position: absolute;
+  width: 90%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -61%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 822, ../sass/index.scss */
+  html body #wrap section#second-division .right-message {
+    padding-top: 7%;
+  }
+}
+/* line 838, ../sass/index.scss */
+html body #wrap section#second-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 845, ../sass/index.scss */
+html body #wrap section#second-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 854, ../sass/index.scss */
+html body #wrap section#second-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 861, ../sass/index.scss */
+html body #wrap section#second-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 871, ../sass/index.scss */
+html body #wrap section#second-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 878, ../sass/index.scss */
+html body #wrap section#second-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 892, ../sass/index.scss */
+html body #wrap section#third-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 904, ../sass/index.scss */
+html body #wrap section#third-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 904, ../sass/index.scss */
+  html body #wrap section#third-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 920, ../sass/index.scss */
+html body #wrap section#third-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 927, ../sass/index.scss */
+html body #wrap section#third-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 936, ../sass/index.scss */
+html body #wrap section#third-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 943, ../sass/index.scss */
+html body #wrap section#third-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 953, ../sass/index.scss */
+html body #wrap section#third-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 960, ../sass/index.scss */
+html body #wrap section#third-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 973, ../sass/index.scss */
+html body #wrap section#forth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 984, ../sass/index.scss */
+html body #wrap section#forth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 984, ../sass/index.scss */
+  html body #wrap section#forth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1000, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1007, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1016, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1023, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1033, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1040, ../sass/index.scss */
+html body #wrap section#forth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1050, ../sass/index.scss */
+html body #wrap section#fifth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1061, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1061, ../sass/index.scss */
+  html body #wrap section#fifth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1079, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1086, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1095, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1102, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1112, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1119, ../sass/index.scss */
+html body #wrap section#fifth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1132, ../sass/index.scss */
+html body #wrap section#sixth-division .image-container {
+  width: 100%;
+  margin-bottom: -6px;
+}
+/* line 1142, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1142, ../sass/index.scss */
+  html body #wrap section#sixth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1161, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1168, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1177, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1184, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1194, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1201, ../sass/index.scss */
+html body #wrap section#sixth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1211, ../sass/index.scss */
+html body #wrap section#seventh-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1222, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -63%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1222, ../sass/index.scss */
+  html body #wrap section#seventh-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1241, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 90%;
+  font-size: 4.5em;
+}
+/* line 1248, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1257, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .right-keyword {
+  width: 90%;
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1265, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1275, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1282, ../sass/index.scss */
+html body #wrap section#seventh-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1295, ../sass/index.scss */
+html body #wrap section#eighth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  margin-bottom: -6px;
+}
+/* line 1306, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1306, ../sass/index.scss */
+  html body #wrap section#eighth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1325, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1332, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1341, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1348, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1358, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1365, ../sass/index.scss */
+html body #wrap section#eighth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1376, ../sass/index.scss */
+html body #wrap section#nineth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  margin-bottom: -6px;
+}
+/* line 1387, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1387, ../sass/index.scss */
+  html body #wrap section#nineth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1406, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1413, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1422, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .right-keyword {
+  width: 90%;
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1430, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1440, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1447, ../sass/index.scss */
+html body #wrap section#nineth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1459, ../sass/index.scss */
+html body #wrap section#tenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1470, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1470, ../sass/index.scss */
+  html body #wrap section#tenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1489, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1496, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1505, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1512, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1522, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1529, ../sass/index.scss */
+html body #wrap section#tenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1540, ../sass/index.scss */
+html body #wrap section#eleventh-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1551, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1551, ../sass/index.scss */
+  html body #wrap section#eleventh-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1570, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1577, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1586, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1593, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1603, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1610, ../sass/index.scss */
+html body #wrap section#eleventh-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1622, ../sass/index.scss */
+html body #wrap section#twelveth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1633, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1633, ../sass/index.scss */
+  html body #wrap section#twelveth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1652, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1659, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1668, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .right-keyword {
+  width: 90%;
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1676, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1686, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1693, ../sass/index.scss */
+html body #wrap section#twelveth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1703, ../sass/index.scss */
+html body #wrap section#thirteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 1714, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1714, ../sass/index.scss */
+  html body #wrap section#thirteenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1734, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1741, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1750, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1757, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1767, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1774, ../sass/index.scss */
+html body #wrap section#thirteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1787, ../sass/index.scss */
+html body #wrap section#forteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  margin-bottom: -6px;
+}
+/* line 1798, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1798, ../sass/index.scss */
+  html body #wrap section#forteenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1817, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1824, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1833, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1840, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1850, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1857, ../sass/index.scss */
+html body #wrap section#forteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1870, ../sass/index.scss */
+html body #wrap section#fifteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  margin-bottom: -6px;
+}
+/* line 1881, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1881, ../sass/index.scss */
+  html body #wrap section#fifteenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1900, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1907, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 1916, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 1923, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 1933, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 1940, ../sass/index.scss */
+html body #wrap section#fifteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 1955, ../sass/index.scss */
+html body #wrap section#sixteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+  margin-bottom: -6px;
+}
+/* line 1966, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 1966, ../sass/index.scss */
+  html body #wrap section#sixteenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 1985, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 1992, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 2001, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 2008, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 2018, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2025, ../sass/index.scss */
+html body #wrap section#sixteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2039, ../sass/index.scss */
+html body #wrap section#seventeenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  margin-bottom: -6px;
+}
+/* line 2050, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 2050, ../sass/index.scss */
+  html body #wrap section#seventeenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 2069, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 2076, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 2085, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .right-keyword {
+  width: 90%;
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 2093, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 2103, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2110, ../sass/index.scss */
+html body #wrap section#seventeenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2125, ../sass/index.scss */
+html body #wrap section#eighteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  margin-bottom: -6px;
+}
+/* line 2144, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+/* line 2156, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 2163, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 2172, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 2179, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 2189, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2196, ../sass/index.scss */
+html body #wrap section#eighteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2210, ../sass/index.scss */
+html body #wrap section#nineteenth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 2221, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -58%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 2221, ../sass/index.scss */
+  html body #wrap section#nineteenth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 2240, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 2247, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 2256, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .right-keyword {
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 2263, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 2273, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2280, ../sass/index.scss */
+html body #wrap section#nineteenth-division .right-message .link a:hover {
+  color: #FFF;
+}
+/* line 2295, ../sass/index.scss */
+html body #wrap section#twentieth-division .image-container {
+  width: 100%;
+  -webkit-filter: brightness(90%);
+  filter: brightness(100%);
+  margin-bottom: -6px;
+}
+/* line 2305, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message {
+  position: absolute;
+  width: 88%;
+  z-index: 10;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  float: left;
+  color: #FFF;
+  margin-top: -60%;
+  padding-left: 16%;
+}
+@media screen and (min-width: 640px) and (max-width: 890px) {
+  /* line 2305, ../sass/index.scss */
+  html body #wrap section#twentieth-division .right-message {
+    padding-top: 6%;
+  }
+}
+/* line 2325, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .right-message-title {
+  padding-right: 5%;
+  width: 95%;
+  font-size: 4.5em;
+}
+/* line 2332, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .right-message-title .year {
+  font-size: 0.5em;
+  margin-top: -5%;
+  padding-bottom: 2%;
+}
+/* line 2341, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .right-keyword {
+  width: 90%;
+  font-size: 1.8em;
+  padding-bottom: 6%;
+}
+/* line 2349, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .abust {
+  width: 80%;
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* line 2359, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .link a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 2366, ../sass/index.scss */
+html body #wrap section#twentieth-division .right-message .link a:hover {
+  color: #FFF;
+}
+
+/* line 2382, ../sass/index.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+  line-height: 1.4;
+}

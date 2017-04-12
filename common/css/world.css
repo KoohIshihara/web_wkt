@@ -1,0 +1,279 @@
+/*world.css*/
+
+html{
+	height: auto;
+}
+
+body{
+	padding: 0;
+	overflow-x: hidden; 
+	background-color: #FFF;
+	font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+	width: 100%;
+	height: auto;
+	min-width: 1060px;
+	
+}
+
+#wrap{
+	width: 100%;
+	height: 100%;
+}
+
+
+#header{
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+#header .title{
+	font-size: 16px;
+	margin-top: 40px;
+	/*margin-left: 100px;*/
+}
+
+#header .title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#header .title a:hover{
+	color: #a3a5a9;
+}
+
+#header .title a:visited{
+	text-decoration: none;
+}
+
+#header .header-navigation{
+	margin-top: -40px;
+	font-size: 11px;
+	/*margin-right: 140px;*/
+	/*position: absolute;*/
+	float: right;
+}
+
+.header-navigation ul{
+	list-style-type: none;
+}
+.header-navigation ul a{
+	text-decoration: none;
+	color: #a3a5a9;
+}
+
+
+.header-navigation ul a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.header-navigation ul a:visited{
+	text-decoration: none;
+}
+
+
+.header-navigation li.about{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.world a{
+	color: #000;
+}
+
+.header-navigation li.china{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.india{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.shingapore{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.world{
+	/*margin-right: 30px;*/
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+
+.header-navigation li.contact{
+	/*margin-right: 30px;*/
+	padding-left: 0px;
+}
+
+/*-----contents-----*/
+
+#contents-stage{ 
+	width: 980px;
+	font-family : YuMincho, '游明朝', serif; 
+	font-size: 12px;
+	margin-top: 60px;
+	margin: 0 auto;
+	margin-top: 100px;
+	/*margin-left: 200px;*/
+}
+
+
+.china-title{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.three-link{
+	font-size: 13px;
+	margin-top: 10px;
+	color: #a3a5a9;
+
+
+}
+
+.three-link a{
+	color: #a3a5a9;
+	text-decoration: none;
+}
+
+
+
+#china-message{
+	text-align: justify;
+	
+
+}
+
+.china-sub-title{
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.china-text-contents{
+	margin-bottom: 60px;
+}
+
+ul.china-text-contents{
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+
+
+/*-----footer-----*/
+#footer{
+	float: left;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+
+
+}
+
+
+
+.copyright{
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	font-size: 11px;
+}
+
+
+/*---chart --*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav {
+	color: #000;
+    margin: 20px auto;
+    min-height: auto;
+}
+
+.none{
+	color: #000;
+}
+
+
+ul.list,
+ul.list ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ul.list ul {
+    margin-left:15px; 
+    position:relative;
+}
+ul.list ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid #ccc;
+}
+ul.list li  {
+    margin:0;
+    padding:5px 20px;
+    text-decoration: none;
+    font-size:13px;
+    line-height:20px;
+    color:#ccc;
+    font-weight:normal;
+    position:relative;
+}
+ul.list li a { 
+    text-decoration: none;
+    font-size:13px;
+    line-height:20px;
+    color:#ccc;
+    font-weight:bold;
+    position:relative;
+}
+ul.list li a:hover,
+ul.list li a:hover+ul li a {
+    color: RGBA(0, 0, 0, 1);
+}
+ul.list ul li:before {
+    content:"";
+    display:block;
+    width:15px;
+    height:0;
+    border-top:1px solid #ccc;
+    position:absolute;
+    top:13px;
+    left: 0;
+}
+ul.list ul li:last-child:before {
+    background: RGBA(255, 255, 255, 1); 
+    height: auto;
+    top: 12px; 
+    bottom: 0;
+}
+
+
+
+/*-----variable----*/
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}

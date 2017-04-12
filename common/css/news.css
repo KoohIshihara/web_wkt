@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/*news.scss*/
+/* line 5, ../sass/news.scss */
+html body {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  min-width: 1280px;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 19, ../sass/news.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 26, ../sass/news.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 31, ../sass/news.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 37, ../sass/news.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 43, ../sass/news.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 47, ../sass/news.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 51, ../sass/news.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 54, ../sass/news.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 59, ../sass/news.scss */
+html body nav ul li.news a {
+  color: #000;
+}
+/* line 65, ../sass/news.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 79, ../sass/news.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  text-decoration: none;
+}
+/* line 90, ../sass/news.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 99, ../sass/news.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 103, ../sass/news.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 120, ../sass/news.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 131, ../sass/news.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 138, ../sass/news.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 145, ../sass/news.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 154, ../sass/news.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 160, ../sass/news.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 168, ../sass/news.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 178, ../sass/news.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 181, ../sass/news.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 184, ../sass/news.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 191, ../sass/news.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 198, ../sass/news.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 205, ../sass/news.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 210, ../sass/news.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 213, ../sass/news.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 219, ../sass/news.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 229, ../sass/news.scss */
+html body #wrap {
+  width: 980px;
+  margin-left: 300px;
+  text-align: justify;
+}
+/* line 235, ../sass/news.scss */
+html body #wrap section {
+  float: left;
+  margin-top: 40px;
+}
+/* line 242, ../sass/news.scss */
+html body #wrap section .nav-bar {
+  font-size: 13px;
+  font-family: YuMincho, '游明朝', serif;
+  margin-left: -20px;
+  padding-bottom: 20px;
+}
+/* line 247, ../sass/news.scss */
+html body #wrap section .nav-bar span {
+  margin-left: 20px;
+}
+/* line 249, ../sass/news.scss */
+html body #wrap section .nav-bar span a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 254, ../sass/news.scss */
+html body #wrap section .nav-bar span a:hover {
+  color: #000;
+}
+/* line 258, ../sass/news.scss */
+html body #wrap section .nav-bar span span.black {
+  color: #000;
+}
+/* line 264, ../sass/news.scss */
+html body #wrap section .title {
+  font-family: YuMincho, '游明朝', serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -10px;
+}
+/* line 271, ../sass/news.scss */
+html body #wrap section .left-message {
+  font-size: 12px;
+  float: left;
+  width: 780px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+/* line 279, ../sass/news.scss */
+html body #wrap section .left-message p {
+  font-family: YuMincho, '游明朝', serif;
+  margin-bottom: 10px;
+}
+/* line 284, ../sass/news.scss */
+html body #wrap section .left-message a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 289, ../sass/news.scss */
+html body #wrap section .left-message a:hover {
+  color: #000;
+}
+/* line 295, ../sass/news.scss */
+html body #wrap section .right-message {
+  font-size: 12px;
+  width: 400px;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/* line 303, ../sass/news.scss */
+html body #wrap section .right-message p {
+  font-family: YuMincho, '游明朝', serif;
+  margin-bottom: 40px;
+}
+/* line 309, ../sass/news.scss */
+html body #wrap section .right-message a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 314, ../sass/news.scss */
+html body #wrap section .right-message a:hover {
+  color: #000;
+}
+
+/* line 327, ../sass/news.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+}

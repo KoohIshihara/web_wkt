@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/*index.scss*/
+/* line 4, ../sass/about.scss */
+
+.member-alumni{
+    margin-top: -72px;
+}
+
+
+
+html body {
+  font-family: "Iowan Old Style", 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman',YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  position: relative;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  min-width: 1280px;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 17, ../sass/about.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 24, ../sass/about.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 29, ../sass/about.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 35, ../sass/about.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 41, ../sass/about.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 45, ../sass/about.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 49, ../sass/about.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 52, ../sass/about.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 57, ../sass/about.scss */
+html body nav ul li.about a {
+  color: #000;
+}
+/* line 64, ../sass/about.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 78, ../sass/about.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  text-decoration: none;
+}
+/* line 89, ../sass/about.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 98, ../sass/about.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 102, ../sass/about.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 119, ../sass/about.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 130, ../sass/about.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 137, ../sass/about.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 144, ../sass/about.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 153, ../sass/about.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 159, ../sass/about.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 167, ../sass/about.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 177, ../sass/about.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 180, ../sass/about.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 183, ../sass/about.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 190, ../sass/about.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 197, ../sass/about.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 206, ../sass/about.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 211, ../sass/about.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 214, ../sass/about.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 220, ../sass/about.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 229, ../sass/about.scss */
+html body #wrap {
+  width: 1000px;
+  float: left;
+  margin-left: 220px;
+}
+/* line 236, ../sass/about.scss */
+html body #wrap section.explanation {
+  margin-top: 30px;
+  font-size: 13px;
+  margin-left: 100px;
+}
+/* line 242, ../sass/about.scss */
+html body #wrap section.explanation .title {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 250, ../sass/about.scss */
+html body #wrap section.explanation .about-first-column {
+  width: 700px;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 2.0;
+  margin-bottom: 40px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 266, ../sass/about.scss */
+html body #wrap section.explanation .about-second-column {
+  width: 700px;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 2.0;
+  margin-top: -9px;
+  margin-bottom: 96px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 278, ../sass/about.scss */
+html body #wrap section.explanation .about-second-column p {
+  margin-top: 18px;
+}
+/* line 284, ../sass/about.scss */
+html body #wrap section.award {
+  font-size: 12px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+/* line 292, ../sass/about.scss */
+html body #wrap section.award .title {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+/* line 297, ../sass/about.scss */
+html body #wrap section.award .award-list {
+  margin-top: -21px;
+  line-height: 1.3;
+}
+/* line 303, ../sass/about.scss */
+html body #wrap section.award .award-list ul.award-list-left {
+  width: 780px;
+  list-style-type: none;
+  margin-left: -28px;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}
+/* line 311, ../sass/about.scss */
+html body #wrap section.award .award-list ul.award-list-right {
+  width: 360px;
+  list-style-type: none;
+  float: left;
+  margin-right: 220px;
+  margin-bottom: 100px;
+}
+/* line 322, ../sass/about.scss */
+html body #wrap section.member {
+  font-size: 12px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  margin-left: 100px;
+}
+/* line 328, ../sass/about.scss */
+html body #wrap section.member .title {
+  font-weight: bold;
+  margin-bottom: -19px;
+}
+/* line 333, ../sass/about.scss */
+html body #wrap section.member .member-list {
+  line-height: 1.0;
+  margin-left: -41px;
+}
+/* line 338, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active {
+  margin-bottom: 219px;
+}
+/* line 342, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-first {
+  float: left;
+  margin-right: 50px;
+}
+/* line 346, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-first li {
+  list-style-type: none;
+}
+/* line 348, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-first li p.style-none {
+  padding-top: 15px;
+  font-weight: bold;
+  padding-bottom: -1px;
+}
+/* line 358, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-second {
+  float: left;
+  margin-left: -28px;
+  margin-right: 65px;
+  margin-top: 14px;
+}
+/* line 364, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-second li {
+  list-style-type: none;
+}
+/* line 366, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-second li p.style-none {
+  padding-top: 13px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+/* line 371, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-second li .agepoyo {
+  margin-top: -8px;
+}
+/* line 378, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-third {
+  float: left;
+  margin-left: -45px;
+}
+/* line 384, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-third li.en {
+  list-style-type: none;
+}
+/* line 386, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-third li.en p.style-none {
+  padding-top: 15px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+/* line 393, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-third li.ja {
+  list-style-type: none;
+  margin-left: -20px;
+}
+/* line 396, ../sass/about.scss */
+html body #wrap section.member .member-list .member-active .member-active-third li.ja p.style-none {
+  padding-top: 17px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+/* line 410, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni {
+  padding-top: -40px;
+  padding-bottom: 40px;
+}
+/* line 413, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-first {
+  float: left;
+  margin-right: 58px;
+  padding-top: 20px;
+}
+/* line 417, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-first li {
+  list-style-type: none;
+}
+/* line 419, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-first li p.style-none {
+  margin-top: -10px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+/* line 427, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-second {
+  float: left;
+  margin-right: 45px;
+}
+/* line 432, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-second li {
+  list-style-type: none;
+}
+/* line 434, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-second li p.style-none {
+  padding-top: 8px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+/* line 441, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-third {
+  float: left;
+  margin-top: 2px;
+  margin-left: -23px;
+  margin-bottom: 100px;
+}
+/* line 448, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-third li {
+  list-style-type: none;
+}
+/* line 450, ../sass/about.scss */
+html body #wrap section.member .member-list .member-alumni .member-alumni-third li p.style-none {
+  padding-top: 8px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+/* line 464, ../sass/about.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+}

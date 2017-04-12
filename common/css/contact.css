@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/*publication.scss*/
+/* line 5, ../sass/contact.scss */
+html body {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  margin: 0 auto;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  min-width: 980px;
+  max-width: 1280px;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 18, ../sass/contact.scss */
+html body nav {
+  background-color: #FFF;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+/* line 25, ../sass/contact.scss */
+html body nav #title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* line 30, ../sass/contact.scss */
+html body nav #title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 36, ../sass/contact.scss */
+html body nav ul {
+  font-size: 12px;
+  margin-left: -20px;
+  margin-top: 17px;
+  list-style-type: none;
+}
+/* line 42, ../sass/contact.scss */
+html body nav ul a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 46, ../sass/contact.scss */
+html body nav ul a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 50, ../sass/contact.scss */
+html body nav ul a:visited {
+  text-decoration: none;
+}
+/* line 53, ../sass/contact.scss */
+html body nav ul li {
+  margin-bottom: 5px;
+}
+/* line 58, ../sass/contact.scss */
+html body nav ul li.contact a {
+  color: #000;
+}
+/* line 64, ../sass/contact.scss */
+html body nav ul li.index {
+  position: relative;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 78, ../sass/contact.scss */
+html body nav ul li.index a {
+  display: block;
+  margin: 0;
+  padding: 15px 0 5px;
+  background: #FFF;
+  text-decoration: none;
+}
+/* line 89, ../sass/contact.scss */
+html body nav ul li.index ul {
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 98, ../sass/contact.scss */
+html body nav ul li.index ul li {
+  width: 120%;
+}
+/* line 102, ../sass/contact.scss */
+html body nav ul li.index ul li a {
+  padding: 13px 15px;
+  background: #FFF;
+  text-align: left;
+}
+/* line 119, ../sass/contact.scss */
+html body nav ul li.index ul li:hover > a {
+  background: #F2F2F2;
+  opacity: 1.0;
+}
+/* line 130, ../sass/contact.scss */
+html body nav ul#fade-in2 li ul {
+  opacity: 0;
+  top: 10%;
+  visibility: hidden;
+  transition: .5s;
+}
+/* line 137, ../sass/contact.scss */
+html body nav ul#fade-in2 li:hover ul {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 144, ../sass/contact.scss */
+html body nav .lang-switch {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #a3a5a9;
+}
+/* line 153, ../sass/contact.scss */
+html body nav .lang-switch #ja {
+  color: #a3a5a9;
+}
+/* line 159, ../sass/contact.scss */
+html body nav .lang-switch #en {
+  color: #000;
+  margin-right: 9px;
+}
+/* line 167, ../sass/contact.scss */
+html body nav .slash {
+  float: left;
+  color: #a3a5a9;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+/* line 177, ../sass/contact.scss */
+html body nav .switch-icon {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+/* line 180, ../sass/contact.scss */
+html body nav .switch-icon img {
+  margin-right: 2px;
+}
+/* line 183, ../sass/contact.scss */
+html body nav .switch-icon a {
+  text-decoration: none;
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 190, ../sass/contact.scss */
+  html body nav *::-ms-backdrop, html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  /* line 197, ../sass/contact.scss */
+  html body nav .switch-icon {
+    margin-top: 5px;
+  }
+}
+/* line 204, ../sass/contact.scss */
+html body nav .xd {
+  margin-left: 20px;
+  margin-top: 72px;
+  font-size: 10px;
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+}
+/* line 209, ../sass/contact.scss */
+html body nav .xd .strong {
+  font-weight: bold;
+}
+/* line 212, ../sass/contact.scss */
+html body nav .xd a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 218, ../sass/contact.scss */
+html body nav footer {
+  font-size: 10px;
+  margin-left: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+/* line 228, ../sass/contact.scss */
+html body #wrap {
+  width: 1080px;
+}
+/* line 234, ../sass/contact.scss */
+html body #wrap section {
+  margin-left: 320px;
+  padding-right: 100px;
+  margin-right: 100px;
+  padding-top: 8px;
+}
+/* line 244, ../sass/contact.scss */
+html body #wrap section .access {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+/* line 250, ../sass/contact.scss */
+html body #wrap section .access a {
+  text-decoration: none;
+  color: #a3a5a9;
+}
+/* line 255, ../sass/contact.scss */
+html body #wrap section .access a:hover {
+  color: #000;
+}
+/* line 259, ../sass/contact.scss */
+html body #wrap section .access .japanese-access {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 12px;
+  font-family: YuMincho, '游明朝', serif;
+  font-weight: normal;
+}
+/* line 268, ../sass/contact.scss */
+html body #wrap section .access .english-access {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 13px;
+  font-family: YuMincho, '游明朝', serif;
+  font-weight: normal;
+}
+/* line 277, ../sass/contact.scss */
+html body #wrap section .access p {
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+/* line 286, ../sass/contact.scss */
+html body #wrap section .contact {
+  margin-top: 25px;
+  margin-bottom: 112px;
+}
+/* line 289, ../sass/contact.scss */
+html body #wrap section .contact p.strong {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 41px;
+}
+/* line 296, ../sass/contact.scss */
+html body #wrap section .contact #formWrap {
+  font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+  width: 780px;
+  color: #555;
+  line-height: 120%;
+  font-size: 90%;
+}
+/* line 305, ../sass/contact.scss */
+html body #wrap section .contact #formWrap table.formTable {
+  width: 100%;
+  margin: 0 auto;
+  background: #FFF;
+  border-collapse: collapse;
+}
+/* line 311, ../sass/contact.scss */
+html body #wrap section .contact #formWrap table.formTable td, html body #wrap section .contact #formWrap table.formTable th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+/* line 315, ../sass/contact.scss */
+html body #wrap section .contact #formWrap table.formTable th {
+  width: 30%;
+  font-weight: normal;
+  background: #FFF;
+  text-align: left;
+}
+
+/* line 329, ../sass/contact.scss */
+.ja {
+  font-family: YuMincho, '游明朝', serif;
+}

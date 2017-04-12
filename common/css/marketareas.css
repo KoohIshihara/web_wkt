@@ -1,0 +1,193 @@
+/*about.css*/
+
+html{
+	height: auto;
+}
+
+body{
+	padding: 0;
+	overflow-x: hidden; 
+	background-color: #FFF;
+	font-family: "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+	width: 100%;
+	height: auto;
+	min-width: 1060px;
+	
+}
+
+#wrap{
+	width: 100%;
+	height: 100%;
+}
+
+
+#header{
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+#header .title{
+	font-size: 16px;
+	margin-top: 40px;
+	/*margin-left: 100px;*/
+}
+
+#header .title a{
+	color: #000;
+	text-decoration: none;
+}
+
+#header .title a:hover{
+	color: #a3a5a9;
+}
+
+#header .title a:visited{
+	text-decoration: none;
+}
+
+#header .header-navigation{
+	margin-top: -40px;
+	font-size: 11px;
+	/*margin-right: 140px;*/
+	/*position: absolute;*/
+	float: right;
+}
+
+.header-navigation ul{
+	list-style-type: none;
+}
+.header-navigation ul a{
+	text-decoration: none;
+	color: #a3a5a9;
+}
+
+
+.header-navigation ul a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.header-navigation ul a:visited{
+	text-decoration: none;
+}
+
+
+.header-navigation li.about{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+
+.header-navigation li.china{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.india{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.shingapore{
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+.header-navigation li.world{
+	/*margin-right: 30px;*/
+	margin-right: 40px;
+	padding-left: 0px;
+}
+
+
+.header-navigation li.contact{
+	/*margin-right: 30px;*/
+	padding-left: 0px;
+}
+
+/*-----contents-----*/
+
+#contents-stage{ 
+	width: 980px;
+	font-family : YuMincho, '游明朝', serif; 
+	font-size: 12px;
+	margin-top: 60px;
+	margin: 0 auto;
+	margin-top: 100px;
+	/*margin-left: 200px;*/
+}
+
+#contents-stage img{
+	margin-bottom: 60px;
+}
+
+.about-title{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 60px;
+}
+
+
+#about-message{
+	text-align: justify;
+	margin-top: 40px;
+}
+
+.about-sub-title{
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.about-text-contents{
+	margin-bottom: 60px;
+}
+
+ul.about-text-contents{
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+.about-text-contents a{
+	text-decoration: none;
+	color: #a3a5a9;
+}
+
+.about-text-contents a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+/*-----footer-----*/
+#footer{
+	float: left;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+
+
+}
+
+
+
+.copyright{
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	font-size: 11px;
+}
+
+
+/*-----variable----*/
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}

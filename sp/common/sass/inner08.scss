@@ -1,0 +1,368 @@
+/*inner.scss*/
+
+html{
+
+	body{
+		font-family : "Iowan Old Style", 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman',YuMincho, '游明朝', serif;
+		margin: 0 auto;
+		position: relative;
+		background-color: #FFF;
+		width: 100%;
+		height: 100%;
+		-webkit-text-size-adjust: 100%;
+
+		header{
+		}
+
+nav{
+			background-color: #FFF;
+			height: 100%;
+			width: 250px;
+			position: fixed;
+			
+
+			#title{
+				font-size: 18px;
+				//font-weight: bold;
+				margin-top: 15px;
+				margin-left: 20px;
+				a{
+					text-decoration: none;
+					color: #000;
+				}
+			}
+
+			ul{
+				font-size: 12px;
+				margin-left: -20px;
+				margin-top: 17px;
+				list-style-type: none;
+
+				a{
+					text-decoration: none;
+					color: #a3a5a9;
+				}
+				a:hover{
+					text-decoration: none;
+					color: #000;
+				}
+				a:visited{
+					text-decoration: none;
+				}
+				li{
+					margin-bottom: 5px;
+				}
+
+
+				//indexの部分だけ変更
+				li.index{
+					//*zoom: 1;
+					//list-style-type: none;
+					//width: 300px;
+					//margin: 5px auto 6px;
+					//padding: 0;
+
+					position: relative;
+					width: 20%;
+					//float: left;
+					margin: 0;
+					padding: 0;
+					text-align: center;
+
+					a{
+						  display: block;
+						  margin: 0;
+						  padding: 15px 0 5px;
+						  background: #FFF;
+						  color: #000;
+						 // font-size: 14px;
+						 // line-height: 1;
+						  text-decoration: none;
+
+					}
+					ul{
+						list-style: none;
+						position: absolute;
+						z-index: 9999;
+						top: 100%;
+						left: 0;
+						margin: 0;
+						padding: 0;
+
+						li{
+							width: 120%;
+
+
+							a{
+								padding: 13px 15px;
+								//border-top: 1px solid #7c8c0e;
+								background: #FFF;
+								text-align: left;
+
+
+
+							}
+
+							a:hover{
+								//background: #616d0b;
+
+							}
+						}
+
+
+						li:hover > a{
+							background: #F2F2F2;
+							opacity: 1.0;
+
+						}
+
+					}
+				}
+
+			} //ul
+
+			ul#fade-in2 li ul{
+  				opacity: 0;
+				top: 10%;
+				visibility: hidden;
+				transition: .5s;
+
+			}
+			ul#fade-in2 li:hover ul{
+  				 top: 80%;
+  				 visibility: visible;
+  				 opacity: 1;
+			}
+
+
+			.lang-switch{
+				cursor: pointer;
+				font-size: 12px;
+				margin-left: 20px;
+				margin-top: 32px;
+				margin-bottom: 12px;
+				color: #a3a5a9;
+
+				
+				#ja{
+					//cursor: pointer;
+					color: #a3a5a9;
+				}
+
+				
+				#en{
+					color: #000;
+					//cursor: pointer;
+					margin-right: 9px;
+
+				}
+			}
+
+			.slash{
+					float: left;
+					color: #a3a5a9;
+					font-size: 12px;
+					margin-left: 40px;
+					margin-top: -28px;
+
+				} 
+
+
+			.switch-icon{
+				margin-left: 20px;
+				margin-top: -10px;
+				img{
+					margin-right: 2px;
+				}
+				a{
+					text-decoration: none;
+				}
+
+			}
+
+
+
+			@media all and (-ms-high-contrast:none){
+					*::-ms-backdrop, .switch-icon {
+					margin-top: 5px;
+				}
+			}
+
+
+			@media all and (-ms-high-contrast:none){
+					.switch-icon {
+						margin-top: 5px;
+				}
+			}
+
+
+
+			.xd{
+				margin-left: 20px;
+				margin-top: 72px;
+				font-size: 10px;
+				font-family : "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+				.strong{
+					font-weight: bold;
+				}
+				a{
+					text-decoration: none;
+					color: #000;
+				}
+			}
+
+			footer{
+					font-size: 10px;
+					margin-left: 30px;
+					position: absolute;
+					margin-bottom: 10px;
+					bottom: 0;
+			}
+		}//nav
+
+		#wrap{
+			width: 100%;
+			overflow: hidden;
+			margin-top: 0%;
+			
+
+			img{
+				width: 100%;
+				height: auto;
+			}
+
+			section{
+				//margin-left: 100px;
+				width: 100%;
+
+					.title{
+						width: 90%;
+						font-family : "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+						font-weight: bold;
+						font-size: 15px;
+						margin-top: -10px;
+						padding-left: 5%;
+
+						.yoko{
+							float: right;
+							//margin-right: 20px;
+							margin-top: -37px;
+						}
+					}
+					.sub-title{
+						font-weight: bold;
+						margin-top: 30px;
+					}
+					.pull-left{
+						//margin-left: -30px;
+					}
+					.right-message01{
+						width: 90%;
+						text-align: justify;
+						padding-left: 5%;
+						font-size: 13px;
+						//float: right;
+						//width: 350px;
+						margin-top: -20px;
+						margin-right: 20px;
+						margin-bottom: 60px;
+						
+						.press{
+							font-family : "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+							
+							margin-bottom: 40px;
+
+						}
+
+						a{
+							text-decoration: none;
+							color: #a3a5a9;
+						}
+						a:hover{
+							color: #000;
+						}
+
+					}
+
+					.left-message01{
+						font-size: 13px;
+						float: right;
+						width: 350px;
+						margin-top: 20px;
+						margin-right: 20px;
+						margin-bottom: 40px;
+
+
+
+						.press{
+							font-family : YuMincho, '游明朝', serif;
+							
+							margin-bottom: 40px;
+
+						}
+					}
+				
+
+					.sub-image{
+						margin-top:-4px;
+						margin-left:-40px;
+						list-style-type: none;
+
+						li{
+							float: left;
+						}
+
+						li:nth-of-type(1){
+							margin-right: 1px;
+						}
+						li:nth-of-type(2){
+							margin-right: 1px;
+
+						}
+						li:nth-of-type(3){
+							margin-right: 0px;
+						}
+					}
+					.top02-image{
+
+				
+				}
+
+					.top-image03{
+						//margin-top: 30px;
+						padding-bottom: 40px;
+					}
+				
+				.right-message{
+					width: 220px;
+					float: left;
+					margin-left: 40px;
+					font-size: 13px;
+					margin-top: 15px;
+
+					.right-message-author{
+						color: #a3a5a9;
+						font-family : "Iowan Old Style",'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', YuMincho, '游明朝', serif;
+						font-size: 13px;
+						margin-right: 10px;
+						margin-bottom: 15px;
+					}
+					.description-subtitle{
+						margin-top: 15px;
+						font-weight: bold;
+					}
+
+				}
+			}
+		}
+	}
+}
+
+
+
+//gloabal
+
+.ja{
+	font-family : YuMincho, '游明朝', serif;
+	
+}
