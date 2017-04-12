@@ -253,6 +253,10 @@ html body #wrap section .contact #formWrap {
   line-height: 120%;
   font-size: 90%;
 }
+
+html body #wrap section .contact #formWrap a { 
+  color: #555;
+}
 /* line 305, ../sass/contact.scss */
 html body #wrap section .contact #formWrap table.formTable {
   width: 100%;
